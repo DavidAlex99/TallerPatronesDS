@@ -10,5 +10,6 @@ package Patron_ChainOfResponsability;
  * @author alexx
  */
 public class Sender {
+    //esta clase seria para los clientes
     
 }

@@ -5,6 +5,8 @@
  */
 package Patron_ChainOfResponsability;
 
+import java.util.Date;
+
 /**
  *
  * @author alexx
@@ -12,6 +14,12 @@ package Patron_ChainOfResponsability;
 public class Producto_Cambio {
     //nombre del producto a devolver
     protected int valor_Producto;
+    //tal como el nombre lo indica, son los dias que fueron usados el producto
+    protected int Dias_Usados;
+    //desxcrripcion de la falla
+    protected String Descripcion_Falla;
+    
+    
     
     public Producto_Cambio(int valor_Producto){
         super();
@@ -24,5 +32,21 @@ public class Producto_Cambio {
     
     public void setValor(int valor_Producto){
         this.valor_Producto = valor_Producto;
+    }
+    
+    public int getDias(){
+        return Dias_Usados;
+    }
+    
+    public void setDias(int Dias_Usados){
+        this.Dias_Usados = Dias_Usados;
+    }
+    
+    public String getDescripcion_Falla(){
+        return Descripcion_Falla;
+    }
+    
+    public void setDescripcion_Falla(String Descripcion_Falla){
+        this.Descripcion_Falla = Descripcion_Falla;
     }
 }

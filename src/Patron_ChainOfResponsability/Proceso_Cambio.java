@@ -9,6 +9,13 @@ package Patron_ChainOfResponsability;
  *
  * @author alexx
  */
-public class Proceso_Cambio {
+public abstract class Proceso_Cambio {
+    protected Proceso_Cambio siguiente;
     
+    //este metodo me permite ir a la siguiente fase (personal) cuando se complete la condicional
+    public void setSiguienteFase(Proceso_Cambio siguiente){
+        this.siguiente = siguiente;
+    }
+    
+    public abstract void MakeChange(Producto_Cambio produto);
 }
