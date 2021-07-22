@@ -9,12 +9,6 @@ package Patron_Builder;
  *
  * @author alexx
  */
-public class Empleado {
-    private String nombre;
-    private int edad;
-    
-    
-    
-    
+public abstract class EmpleadoBuilder {
     
 }

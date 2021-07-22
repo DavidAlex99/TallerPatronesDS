@@ -3,18 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Patron_Builder;
 
 /**
  *
  * @author alexx
  */
-public class Empleado {
-    private String nombre;
-    private int edad;
-    
-    
-    
-    
+public class Patron_AbstractFactory {
     
 }
