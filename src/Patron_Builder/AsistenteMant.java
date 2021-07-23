@@ -9,6 +9,10 @@ package Patron_Builder;
  *
  * @author alexx
  */
-public class VendedorBuilder extends EmpleadoBuilder{
-    
+public class AsistenteMant extends PersonaBuilder{
+    public void prodReparacion(){
+        /*
+        
+        */
+    }
 }

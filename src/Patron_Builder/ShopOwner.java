@@ -9,6 +9,10 @@ package Patron_Builder;
  *
  * @author alexx
  */
-public class ProveedorBuilder extends EmpleadoBuilder{
-    
+public class ShopOwner {
+    public void verProductosTienda(String Tienda){
+        /*
+        
+        */
+    }
 }

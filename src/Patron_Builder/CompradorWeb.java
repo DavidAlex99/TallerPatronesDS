@@ -9,6 +9,10 @@ package Patron_Builder;
  *
  * @author alexx
  */
-public abstract class EmpleadoBuilder {
-    
+public class CompradorWeb {
+    public void verProductosDisponibles(){
+        /*
+        
+        */
+    }
 }

@@ -13,6 +13,8 @@ import java.util.Date;
  */
 public class Producto_Cambio {
     //nombre del producto a devolver
+    protected String nombre;
+    //nombre del producto a devolver
     protected int valor_Producto;
     //tal como el nombre lo indica, son los dias que fueron usados el producto
     protected int Dias_Usados;
@@ -48,5 +50,13 @@ public class Producto_Cambio {
     
     public void setDescripcion_Falla(String Descripcion_Falla){
         this.Descripcion_Falla = Descripcion_Falla;
+    }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public void setNombre(int Dias_Usados){
+        this.nombre = nombre;
     }
 }
